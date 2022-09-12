@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.light-theme .profile_menu_hover:hover {
+    background: #E7E7E8;
+    color: Black;
+}
+
+.dark-theme .profile_menu_hover:hover {
+    background: #181818;
+    color: white;
+}
+
+.light-theme .follow_btn:hover {
+    background: black;
+    color: #d6d9db;
+}
+
+.dark-theme .follow_btn:hover {
+    background: #d6d9db;
+    color: black;
+}
+
+.light-theme .follow_btn {
+    background: black;
+    color: #d6d9db;
+}
+
+.dark-theme .follow_btn {
+    background: #d6d9db;
+    color: black;
+}
+
+.light-theme .postData {
+    color: black;
+}
+
+.dark-theme .postData {
+    color: #d6d9db;
+}
+
+
+.feeds::-webkit-scrollbar {
+    display: none;
+}
+
+#bar-fixed.stickIt {
+    position: fixed;
+    top: 0px;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100%;
+}
+
+.light-theme .edit_profile_btn {
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid #E7E7E8;
+}
+
+.light-theme .edit_profile_btn:hover {
+    background: #E7E7E8;
+    border: 1px solid #E7E7E8;
+}
+
+.dark-theme .edit_profile_btn {
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid #536471;
+}
+
+.dark-theme .edit_profile_btn:hover {
+    background: #181919;
+    border-radius: 20px;
+    border: 1px solid #181919;
+}
+
+.light-theme .profile_menu_active {
+    color: black;
+}
+
+.dark-theme .profile_menu_active {
+    color: white;
+    font-weight: 600;
+}
+
+.profile_menu {
+    color: #75828D;
+    font-weight: 600;
+}
+
+.light-theme .right_side_footer:hover {
+    border-bottom: 1px solid #2F3336;
+}
+
+.dark-theme .right_side_footer:hover {
+    border-bottom: 1px solid #EFF3F4;
+}
+
+.light-theme .borderBottom {
+    border-bottom: 1px solid #EFF3F4;
+}
+
+.dark-theme .borderBottom {
+    border-bottom: 1px solid #2F3336;
+}
+
+.light-theme .MainContent {
+    border-left: 1px solid #EFF3F4;
+    border-right: 1px solid #EFF3F4;
+}
+
+.dark-theme .MainContent {
+    border-left: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
+}
+
+.light-theme .username {
+    color: black;
+}
+
+.dark-theme .username {
+    color: white;
+}
+
+.username:hover {
+    text-decoration: underline;
+}
+
+#addPostBtn {
+    bottom: 0;
+}
+
+.light-theme .ads:hover {
+    background: #EFF1F1;
+}
+
+.dark-theme .ads:hover {
+    background: #1D1F23;
+}
+
+.light-theme .rightData {
+    background: #F7F7F7;
+}
+
+.dark-theme .rightData {
+    background: #16181C;
+}
+
+.light-theme .postDataHover:hover {
+    background: #F7F7F7;
+}
+
+.dark-theme .postDataHover:hover {
+    background: #080808;
+}
+
+.dark-theme .textColor {
+    color: #d6d9db;
+}
+
+.menu_hover {
+    border-radius: 30px;
+}
+
+.light-theme .menu_hover {
+    color: black;
+}
+
+.dark-theme .menu_hover {
+    color: #d6d9db;
+}
+
+.dark-theme .myApp {
+    background-color: black;
+    color: #d6d9db;
+}
+
+.light-theme .myApp {
+    background-color: #FFFFFF;
+}
+
+.dark-theme .headerLogo {
+    color: #d6d9db;
+}
+
+.light-theme .headerLogo {
+    color: #1D9BF0;
+}
+
+.dark-theme .LightScrnMenu {
+    display: none;
+}
+
+.light-theme .DarkScrnMenu {
+    display: none;
+}
+
+.light-theme .menu_hover:hover {
+    background: #E7E7E8;
+}
+
+.dark-theme .menu_hover:hover {
+    background: #181818;
+}
+
+.TweetBtnAfterXlScrn {
+    display: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.signup_btns {
+    border: 1px solid #DADCE0;
+    border-radius: 20px;
+    background: white;
+    width: 300px;
+}
+
+.signup_btns:hover {
+    background: rgb(227, 248, 255);
+}
+
+@media (max-width: 1199px) {
+    .menuName {
+        display: none;
+    }
+
+    .TweetBtnBeforeXlScrn {
+        display: none;
+    }
+
+    .TweetBtnAfterXlScrn {
+        display: block;
+    }
+
+    .formSide {
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 991px) {
+    .RightSidebarMenu {
+        display: none;
+    }
+}
+
+.LeftSidebarAfterSMScrn {
+    display: none;
+}
+
+.top_account_menu {
+    display: none;
+}
+
+@media (min-width: 575px) {
+    .newTopHeading {
+        display: none;
+    }
+
+    .headingAuth {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 575px) {
+    .leftSidebarMenu {
+        display: none;
+    }
+
+    .LeftSidebarAfterSMScrn {
+        display: block;
+    }
+
+    .top_account_menu {
+        display: block;
+    }
+
+    .topHeading {
+        display: none;
+    }
+
+    .inputTweetBeforeSMScrn {
+        display: none;
+    }
+
+    .headingAuth {
+        font-size: 36px;
+    }
+}
+
+
+@media (min-width: 1399px) {
+    .feeds_container {
+        width: 410px;
+    }
+}
+
+
+@media (max-width: 1399px) {
+    .feeds_container {
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .feeds_container {
+        width: 290px;
+    }
+
+    .authLogoRight {
+        margin-top: 5%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .AuthLogoSide {
+        height: 95vh;
+    }
+
+    .authLogoRight {
+        margin-top: 15%;
+    }
+}
